@@ -7,8 +7,8 @@ import { Mail, MapPin, Send, Github, Linkedin, Twitter } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Ahmadalhsen599", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/ahmadalhussein599/", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
@@ -88,7 +88,7 @@ export const ContactSection = () => {
             {/* Contact Details */}
             <div className="space-y-4">
               <motion.a
-                href="mailto:hello@example.com"
+                href="Ahmadalhsen599@gmail.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-primary/30 transition-all group"
                 whileHover={{ x: 5 }}
               >
@@ -100,7 +100,7 @@ export const ContactSection = () => {
                     EMAIL
                   </span>
                   <span className="text-foreground font-medium">
-                    hello@example.com
+                   Ahmadalhsen599@gmail.com
                   </span>
                 </div>
               </motion.a>
@@ -117,7 +117,7 @@ export const ContactSection = () => {
                     LOCATION
                   </span>
                   <span className="text-foreground font-medium">
-                    San Francisco, CA (Remote Friendly)
+                   syria, Damascuse (sahnaya)
                   </span>
                 </div>
               </motion.div>

@@ -7,32 +7,32 @@ const skills = [
   {
     category: "Frontend",
     icon: Code2,
-    items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+    items: ["React",  "Next.js", "redux", "redux ToolKit"],
   },
   {
     category: "Backend",
     icon: Server,
-    items: ["Node.js", "Python", "Go", "REST APIs", "GraphQL"],
+    items: ["php", "Laravel", , "REST APIs", ],
   },
   {
     category: "Database",
     icon: Database,
-    items: ["PostgreSQL", "MongoDB", "Redis", "Supabase", "Prisma"],
+    items: [ "mysql", "Redis", "oracle", "sqllite"],
   },
   {
     category: "DevOps",
     icon: Layers,
-    items: ["Docker", "Kubernetes", "AWS", "CI/CD", "Terraform"],
+    items: ["Docker",""],
   },
   {
     category: "Systems",
     icon: Cpu,
-    items: ["Distributed Systems", "Microservices", "Event-Driven", "System Design"],
+    items: [ "Microservices", "Event-Driven", "System Design"],
   },
   {
     category: "Tools",
     icon: Globe,
-    items: ["Git", "Linux", "Figma", "Jira", "Agile/Scrum"],
+    items: ["Git", , "Figma", "Jira", "Agile/Scrum"],
   },
 ];
 
@@ -73,30 +73,34 @@ export const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="space-y-6"
           >
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a Software Engineer and Information Systems specialist who
-              thrives on turning complex challenges into elegant, scalable
-              solutions. With a foundation in both software architecture and
-              systems engineering, I bring a unique perspective to every project.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              My approach combines technical rigor with creative problem-solving.
-              I believe that the best software isn't just functional—it's
-              maintainable, performant, and a joy to work with. Whether I'm
-              designing a distributed system or crafting a pixel-perfect UI, I
-              obsess over the details that matter.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Currently focused on building products that make a real impact,
-              leveraging modern technologies and best practices to deliver
-              solutions that stand the test of time.
-            </p>
+           <p className="text-lg text-muted-foreground leading-relaxed">
+  I'm a Full-Stack Web Developer with a strong focus on Laravel and React,
+  passionate about building practical web applications and improving my
+  software engineering skills through real-world projects. I enjoy transforming
+  ideas into functional systems while focusing on clean code, maintainability,
+  and well-structured application logic.
+</p>
 
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Through my projects, I have built RESTful APIs with Laravel, implemented
+  authentication systems, and developed interactive user interfaces using
+  React and modern JavaScript. I enjoy solving problems and continuously
+  improving my understanding of software architecture, API design, and
+  frontend development practices.
+</p>
+
+<p className="text-lg text-muted-foreground leading-relaxed">
+  I'm also interested in software engineering concepts such as system design,
+  data organization, and foundational data warehousing principles. I regularly
+  use tools like Git, GitHub, and Jira to manage code and development
+  workflows, while continuing to build projects that strengthen my skills in
+  modern web development.
+</p>
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border">
               {[
-                { value: "5+", label: "Years Experience" },
-                { value: "30+", label: "Projects Delivered" },
+                { value: "1+", label: "Years Experience" },
+                { value: "3+", label: "Projects Delivered" },
                 { value: "10+", label: "Happy Clients" },
               ].map(({ value, label }, index) => (
                 <motion.div

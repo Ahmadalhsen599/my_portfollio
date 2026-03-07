@@ -4,44 +4,53 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Software Engineer",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
+    title: "Backend Development with Laravel",
+    company: "Personal & Academic Projects",
+    location: "Remote",
+    period: "2024 - Present",
     description:
-      "Leading development of distributed systems handling millions of daily transactions. Architected microservices migration reducing infrastructure costs by 40%.",
+      "Developed backend systems using Laravel while building practical projects. Focused on designing RESTful APIs, authentication systems, and backend logic that powers real-world web applications.",
     highlights: [
-      "Led team of 5 engineers on critical platform redesign",
-      "Reduced API response times by 60% through optimization",
-      "Established engineering best practices and code review standards",
+      "Built a complete RESTful API for a real estate marketplace platform",
+      "Implemented authentication systems using Laravel",
+      "Used Laravel HTTP Client to interact with external services",
+      "Developed a posts API system for the ASPU Hub student platform",
+      "Implemented Laravel Notifications stored in the database",
+      "Applied Laravel Events & Listeners to manage application workflows",
     ],
     current: true,
   },
   {
-    title: "Software Engineer",
-    company: "StartupXYZ",
-    location: "New York, NY",
-    period: "2020 - 2022",
+    title: "Frontend Development with React",
+    company: "Personal Projects",
+    location: "Remote",
+    period: "2024 - Present",
     description:
-      "Full-stack development for B2B SaaS platform. Built real-time analytics dashboard used by 500+ enterprise clients.",
+      "Developed interactive user interfaces using React while building practical frontend applications. Focused on understanding React fundamentals, component logic, and API integration.",
     highlights: [
-      "Developed real-time data pipeline processing 1M+ events/day",
-      "Implemented comprehensive testing strategy (95% coverage)",
-      "Mentored junior developers and led technical interviews",
+      "Built an interactive multiplayer XO game using React",
+      "Practiced React hooks including useState, useEffect, and useRef",
+      "Developed dynamic UI with conditional rendering",
+      "Built Quran Tap web application displaying Quran verses and audio playback",
+      "Fetched external data using Axios for verses, audio files, and tafsir",
+      "Focused on writing clean and reusable component logic",
     ],
     current: false,
   },
   {
-    title: "Junior Software Developer",
-    company: "Digital Agency Co.",
-    location: "Boston, MA",
-    period: "2019 - 2020",
+    title: "Software Engineering & Development Workflow",
+    company: "Self-directed Learning",
+    location: "Remote",
+    period: "2023 - Present",
     description:
-      "Developed web applications and e-commerce platforms for diverse clients. Gained foundational experience in agile development.",
+      "Practiced software engineering concepts and modern development workflows while building projects and managing code repositories.",
     highlights: [
-      "Delivered 10+ client projects on time and within budget",
-      "Built reusable component library reducing dev time by 30%",
-      "Collaborated with design team on UI/UX improvements",
+      "Used Git and GitHub for version control and project management",
+      "Worked with branching workflows and pull request practices",
+      "Organized development tasks using Jira",
+      "Applied basic software architecture principles when designing APIs",
+      "Worked with relational databases and backend data structures",
+      "Explored foundational concepts of data organization and data warehousing",
     ],
     current: false,
   },
@@ -67,13 +76,13 @@ export const ExperienceSection = () => {
           className="mb-16"
         >
           <span className="text-primary font-mono text-sm tracking-wider mb-4 block">
-            03. EXPERIENCE
+            03. Development Experience
           </span>
           <h2 id="experience-heading" className="section-heading mb-6">
             Where I've Worked
           </h2>
           <p className="section-subheading">
-            A journey of growth, from foundation to leadership.
+          Practical experience gained through building real-world projects and learning modern development tools.
           </p>
         </motion.div>
 

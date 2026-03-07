@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Ahmadalhsen599", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/ahmadalhussein599", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
 

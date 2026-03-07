@@ -5,61 +5,63 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "CloudScale Platform",
+    title: "Real Estate Marketplace Platform",
     description:
-      "A distributed microservices platform handling 1M+ daily transactions. Built to solve the scaling challenges of legacy monolithic systems.",
+      "A real estate marketplace platform that allows users to browse and explore property listings. My role focused on building the backend services that power authentication and data exchange with the frontend.",
     problem:
-      "Legacy systems couldn't handle traffic spikes, causing downtime during peak hours.",
+      "The platform required a secure and simple authentication system and a structured API to allow the frontend to interact with property data.",
     solution:
-      "Designed event-driven architecture with auto-scaling, reducing latency by 60% and achieving 99.99% uptime.",
-    tech: ["Go", "Kubernetes", "Redis", "PostgreSQL", "Kafka"],
-    role: "Lead Engineer",
-    impact: "60% latency reduction, 99.99% uptime",
-    github: "https://github.com",
-    live: "https://example.com",
+      "Implemented a basic authentication system and built a complete RESTful API using Laravel. Also used Laravel's HTTP Client package to interact with external services when needed.",
+    tech: ["Laravel", "PHP", "RESTful API", "MySQL", "Laravel HTTP Client"],
+    role: "Backend Developer (Laravel)",
+    impact: "Built authentication system and full RESTful API for the platform",
+    github: "https://github.com/Ahmadalhsen599/First_uneversity_Poject",
+    live: "https://github.com/Ahmadalhsen599/First_uneversity_Poject",
     featured: true,
   },
   {
-    title: "AnalyticsDash",
+    title: "ASPU Hub",
     description:
-      "Real-time analytics dashboard processing streaming data from IoT devices with sub-second visualization updates.",
+      "A social platform designed for university students to communicate, ask questions, and share knowledge within specialized groups.",
     problem:
-      "Clients needed real-time insights but existing tools had 5-10 minute delays.",
+      "Students lacked a centralized platform to ask academic questions and interact with peers within their field of study.",
     solution:
-      "Built streaming pipeline with WebSockets and optimized rendering, achieving <100ms latency.",
-    tech: ["React", "TypeScript", "Node.js", "TimescaleDB", "WebSocket"],
-    role: "Full-Stack Developer",
-    impact: "<100ms latency, 10x faster insights",
-    github: "https://github.com",
-    live: "https://example.com",
+      "Developed a RESTful API for the posts system using Laravel where users can create questions as posts and receive answers as other posts inside groups. Implemented Laravel database notifications and used the Event & Listener system to manage application events.",
+    tech: ["Laravel", "PHP", "RESTful API", "MySQL", "Laravel Notifications", "Events & Listeners"],
+    role: "Backend Developer (Laravel)",
+    impact: "Enabled structured student communication through posts and notification system",
+    github: "https://github.com/AhmadSadik1/ASPU_HUB",
+    live: "https://github.com/AhmadSadik1/ASPU_HUB",
     featured: true,
   },
   {
-    title: "SecureAuth System",
+    title: "Multiplayer XO Game",
     description:
-      "Enterprise-grade authentication system with SSO, MFA, and role-based access control for 50K+ users.",
+      "A simple two-player Tic-Tac-Toe web application where two users can play against each other through an interactive interface.",
     problem:
-      "Fragmented auth across apps created security vulnerabilities and poor UX.",
+      "The goal of the project was to practice React fundamentals and understand how to manage state and component lifecycle effectively.",
     solution:
-      "Centralized OAuth 2.0/OIDC solution with biometric MFA and session management.",
-    tech: ["Python", "FastAPI", "PostgreSQL", "Redis", "OAuth 2.0"],
-    role: "Backend Engineer",
-    impact: "Zero security breaches, 40% faster login",
-    github: "https://github.com",
-    live: "https://example.com",
+      "Built the game interface using React and implemented the core game logic using React hooks such as useState, useRef, and useEffect. Focused on creating a clean and engaging user interface.",
+    tech: ["React", "JavaScript", "useState", "useRef", "useEffect"],
+    role: "Frontend Developer",
+    impact: "Strengthened understanding of React hooks and state management",
+    github: "https://github.com/Ahmadalhsen599/XO_Game",
+    live: "https://xo-game-lake-two.vercel.app/",
     featured: false,
   },
   {
-    title: "DevOps Pipeline",
+    title: "Quran Tap",
     description:
-      "Automated CI/CD infrastructure reducing deployment time from hours to minutes with zero-downtime releases.",
-    problem: "Manual deployments took 4+ hours and often caused downtime.",
+      "A Quran web application that displays Quran verses with audio playback and interpretation, along with collections of morning and evening adhkar and Quranic supplications.",
+    problem:
+      "The project aimed to provide an easy and interactive way for users to read Quran verses, listen to recitations, and access interpretations in one place.",
     solution:
-      "Infrastructure-as-code with blue-green deployments and automated rollbacks.",
-    tech: ["Terraform", "Docker", "GitHub Actions", "AWS", "ArgoCD"],
-    role: "DevOps Engineer",
-    impact: "95% faster deployments, zero downtime",
-    github: "https://github.com",
+      "Built the interface using React and fetched Quran verses, audio files, and tafsir data using Axios. Implemented dynamic rendering with React hooks and conditional rendering to manage complex UI states.",
+    tech: ["React", "JavaScript", "Axios", "useState", "useRef", "useEffect"],
+    role: "Frontend Developer",
+    impact: "Learned advanced React patterns including conditional rendering and API integration",
+    github: "https://github.com/Ahmadalhsen599/quran_tap",
+    live: "https://quran-tap.vercel.app/",
     featured: false,
   },
 ];
